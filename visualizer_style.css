@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(201, 201, 201);
+}
+
+.nav{
+    background-color: black;
+    display: flex;
+    margin: -8px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 100px;
+    font-size: 21px;
+    text-align: center;
+    color: beige;
+}
+
+.sorttypes{
+    display: flex;
+    gap: 50px;
+}
+
+.container{
+    margin: -8px;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.graph{
+    height: 300px;
+    width: 60%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 3px;
+    
+}
+
+.bar{
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+
+}
+
+.selectedbar{
+    background-color: rgb(49, 255, 49);
+    border-radius: 10px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px ;
+    gap: 15px;
+}
+
+button{
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.bubble:hover,.insertion:hover,.selection:hover{
+    color: blueviolet;
+    cursor: grab;
+}
+
+.array{
+    margin-top: 40px;
+    height: 100px;
+    text-align: center;
+    font-size: 18px;
+}
